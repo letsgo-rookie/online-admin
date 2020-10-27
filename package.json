@@ -2,7 +2,7 @@
   "name": "online-admin",
   "version": "4.4.0",
   "description": "Online teaching background management system, guli's instructional video",
-  "author": "letsgo-rookie ",
+  "author": "letsgo-rookie",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -58,5 +58,18 @@
     "node": ">=8.9",
     "npm": ">= 3.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letsgo-rookie/online-admin.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/letsgo-rookie/online-admin/issues"
+  },
+  "homepage": "https://github.com/letsgo-rookie/online-admin#readme"
 }
