@@ -8,7 +8,7 @@ export default {
     getTeacherListPage(current, limit, teacherQuery){
         return request({
             // url: '/vue-admin-template/table/list'+current+"/"+limit,
-            url: '${api_name}/pageTeacherCondition/${current}/${limit}',
+            url: '/eduservice/edu-teacher/pageTeacherCondition/'+current+"/"+limit,
             method: 'post',
             // 条件查询 后端使用requestbody获取数据
             // dada: 把数据转为json数据格式进行传输
